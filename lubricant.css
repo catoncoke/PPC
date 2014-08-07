@@ -22,7 +22,7 @@ h2{
 }
 #header  {
 	height: 68px;
-	background: url("..images/background.png")repeat-x;
+	/*background: url("..images/background.png")repeat-x;*/
 }
 
 #logo{
@@ -40,32 +40,39 @@ h2{
 	padding: 10px 0;
 	background-color: #C1C1C1;
 	width:960px;
+	border-top: 1px solid #353535;
 }
 #navList li {
 	display:inline;
 	color: 	#353535;
 	padding: 10px 11px;
-	border-top: 2px solid #353535;
-	border-right: 2px solid #353535;
+	border-right: 1px solid #353535;
+	font-size: 12px;
 }
 #navList a:link, #navList a:visited{
 	color: 	#353535;
+	text-decoration: none;
 }
 #mainRight{
 	width:550px;
+	background-color: #595959;
+	margin-top: 5px;
+	height:260px;
 }
 #mainRight p{
 	color:white;
 	font-size: 12px;
 	padding: 10px;
 }
+#mainRight h1{
+	padding: 10px;
+}
 #mainLeft{
 	width:390px;
 }
 #main{
-	background-color: #595959;
+	background-color: black;
 	width:960px;
-
 }
 #bottom{
 
@@ -73,7 +80,20 @@ h2{
 	font-size: 8px;
 	width: 960px;
 }
-
+#middle {
+	background-color:black;
+	width:960px;
+	color:#FFB56C;
+	font-size: 10px;
+	padding: 2px 0;
+}
+#middle p{
+	padding:10px;
+	color:#FFB56C;
+}
+#logoSmall{
+	display:inline-block;
+}
 .inlineBlock{
 	display:inline-block;
 	vertical-align: top;
@@ -105,3 +125,5 @@ h2{
 	text-align: center;
 	margin-left: 100px
 }
+
+
