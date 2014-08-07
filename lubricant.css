@@ -89,6 +89,7 @@ h2{
 }
 .box{
 	width:225px;
+	height:200px;
 	background-color:white;
 	font-size:8px;
 	display:inline-block;
